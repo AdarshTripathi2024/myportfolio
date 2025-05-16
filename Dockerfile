@@ -1,32 +1,26 @@
-FROM php:8.2-apache
+FROM php:8.2-cli
 
-# Install necessary libraries
+# Install necessary PHP extensions and libraries
 RUN apt-get update && apt-get install -y \
-    libonig-dev \
-    libzip-dev \
     unzip \
+    libzip-dev \
+    libonig-dev \
+    libpq-dev \
     zip \
-    && docker-php-ext-install \
-    mysqli \
-    pdo \
-    pdo_mysql \
-    mbstring
-
-# Enable Apache rewrite module
-RUN a2enmod rewrite
+    curl \
+    git \
+    && docker-php-ext-install mbstring pdo pdo_mysql mysqli
 
 # Set working directory
-WORKDIR /var/www/html
+WORKDIR /app
 
 # Copy all project files
 COPY . .
 
-# Change Apache root directory to /public (required by CI4)
-RUN sed -i 's|DocumentRoot /var/www/html|DocumentRoot /var/www/html/public|' /etc/apache2/sites-available/000-default.conf
-
-# Permissions for writable folder
+# Set permissions for writable directory (if needed by CodeIgniter 4)
 RUN chown -R www-data:www-data writable \
     && chmod -R 775 writable
 
-# ❗ Final Fix: Use shell to expand $PORT variable
-CMD sh -c "php -S 0.0.0.0:$PORT -t public"
+# FINAL FIX:
+# Use a shell so that $PORT environment variable is correctly interpreted
+CMD sh -c "php -S 0.0.0.0:\$PORT -t public"
