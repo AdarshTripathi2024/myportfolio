@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/portfolio/';
+    public $baseURL = 'https://adarsh-tripathi-portfolio.up.railway.app/';
 
     /**
      * --------------------------------------------------------------------------
