@@ -4,6 +4,9 @@ FROM php:8.2-apache
 RUN a2enmod rewrite
 
 # Install necessary PHP extensions
+RUN apt-get update && apt-get install -y libicu-dev \
+    && docker-php-ext-install intl
+
 RUN docker-php-ext-install pdo pdo_mysql
 
 # Set working directory and copy all files
