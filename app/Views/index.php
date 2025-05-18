@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
+    <link rel="icon" type="image/x-icon" href="<?= base_url('public/images/favicon.png'); ?>">
     <link rel="stylesheet" href="<?= base_url('public/css/open-iconic-bootstrap.min.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('public/css/animate.css'); ?>">
 
@@ -27,7 +27,7 @@
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Adarsh Tripathi</a>
+	      <a class="navbar-brand" href="<?= base_url(); ?>"><img src="<?= base_url('public/images/a.png'); ?>" alt="">darsh Tripathi</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
