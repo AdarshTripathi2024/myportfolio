@@ -6,28 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="<?= base_url('public/images/favicon.png'); ?>">
-    <link rel="stylesheet" href="<?= base_url('public/css/open-iconic-bootstrap.min.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('public/css/animate.css'); ?>">
+    <link rel="icon" type="image/x-icon" href="<?= base_url('images/favicon.png'); ?>">
+    <link rel="stylesheet" href="<?= base_url('css/open-iconic-bootstrap.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('css/animate.css'); ?>">
 
-    <link rel="stylesheet" href="<?= base_url('public/css/owl.carousel.min.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('public/css/owl.theme.default.min.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('public/css/magnific-popup.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('css/owl.carousel.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('css/owl.theme.default.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('css/magnific-popup.css'); ?>">
 
-    <link rel="stylesheet" href="<?= base_url('public/css/aos.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('css/aos.css'); ?>">
 
-    <link rel="stylesheet" href="<?= base_url('public/css/ionicons.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('css/ionicons.min.css'); ?>">
     
-    <link rel="stylesheet" href="<?= base_url('public/css/flaticon.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('public/css/icomoon.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('public/css/style.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('css/flaticon.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('css/icomoon.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('css/style.css'); ?>">
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="<?= base_url(); ?>"><img src="<?= base_url('public/images/a.png'); ?>" alt="">darsh Tripathi</a>
+	      <a class="navbar-brand" href="<?= base_url(); ?>"><img src="<?= base_url('images/a.png'); ?>" alt="">darsh Tripathi</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -52,7 +52,7 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(public/images/adarsh-tripathi.png);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/adarsh-tripathi.png);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -71,7 +71,7 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(public/images/bg_2.png);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.png);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -94,7 +94,7 @@
     			<div class="col-md-6 col-lg-5 d-flex">
     				<div class="img-about img d-flex align-items-stretch">
     					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(public/images/bg_1.png);">
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/bg_1.png);">
 	    				</div>
     				</div>
     			</div>
@@ -119,7 +119,7 @@
 	                <span class="number" data-number="20">0</span>
 	                <span>Project complete</span>
                 </p>
-                <p><a href="<?= base_url('public/downloads/adarshtripathi.pdf'); ?>" target="_blank" class="btn btn-primary py-3 px-3">Download CV</a></p>
+                <p><a href="<?= base_url('downloads/adarshtripathi.pdf'); ?>" target="_blank" class="btn btn-primary py-3 px-3">Download CV</a></p>
               </div>
 	          </div>
 	        </div>
@@ -171,7 +171,7 @@
     		</div>
     		<div class="row justify-content-center mt-5">
     			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="<?= base_url('public/downloads/adarshtripathi.pdf'); ?>" target="_blank" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    				<p><a href="<?= base_url('downloads/adarshtripathi.pdf'); ?>" target="_blank" class="btn btn-primary py-4 px-5">Download CV</a></p>
     			</div>
     		</div>
     	</div>
@@ -389,7 +389,7 @@
         </div>
     		<div class="row">
     			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(public/images/project-4.jpg);">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-4.jpg);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -398,7 +398,7 @@
     				</div>
   				</div>
   				<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(public/images/project-5.jpg);">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.jpg);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -408,7 +408,7 @@
   				</div>
 
     			<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(public/images/project-1.jpg);">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.jpg);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -416,7 +416,7 @@
 	    				</div>
     				</div>
 
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(public/images/project-6.jpg);">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-6.jpg);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -427,7 +427,7 @@
     			<div class="col-md-4">
     				<div class="row">
     					<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(public/images/project-2.jpg);">
+		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
 		    					<div class="overlay"></div>
 			    				<div class="text text-center p-4">
 			    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -436,7 +436,7 @@
 		    				</div>
 	    				</div>
 	    				<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(public/images/project-3.jpg);">
+		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
 		    					<div class="overlay"></div>
 			    				<div class="text text-center p-4">
 			    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -492,7 +492,7 @@
       </div>
     </section>
 
-    <section class="ftco-section ftco-hireme img margin-top" style="background-image: url(public/images/bg_1.jpg)">
+    <section class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-md-7 ftco-animate text-center">
@@ -578,7 +578,7 @@
           </div>
 
           <div class="col-md-6 d-flex">
-          	<div class="img" style="background-image: url(public/images/about.jpg);"></div>
+          	<div class="img" style="background-image: url(images/about.jpg);"></div>
           </div>
         </div>
       </div>
@@ -651,20 +651,20 @@
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-  <script src="<?= base_url('public/js/jquery.min.js'); ?>"></script>
-  <script src="<?= base_url('public/js/jquery-migrate-3.0.1.min.js'); ?>"></script>
-  <script src="<?= base_url('public/js/popper.min.js'); ?>"></script>
-  <script src="<?= base_url('public/js/bootstrap.min.js'); ?>"></script>
-  <script src="<?= base_url('public/js/jquery.easing.1.3.js'); ?>"></script>
-  <script src="<?= base_url('public/js/jquery.waypoints.min.js'); ?>"></script>
-  <script src="<?= base_url('public/js/jquery.stellar.min.js'); ?>"></script>
-  <script src="<?= base_url('public/js/owl.carousel.min.js'); ?>"></script>
-  <script src="<?= base_url('public/js/jquery.magnific-popup.min.js'); ?>"></script>
-  <script src="<?= base_url('public/js/aos.js'); ?>"></script>
-  <script src="<?= base_url('public/js/jquery.animateNumber.min.js'); ?>"></script>
-  <script src="<?= base_url('public/js/scrollax.min.js'); ?>"></script>
+  <script src="<?= base_url('js/jquery.min.js'); ?>"></script>
+  <script src="<?= base_url('js/jquery-migrate-3.0.1.min.js'); ?>"></script>
+  <script src="<?= base_url('js/popper.min.js'); ?>"></script>
+  <script src="<?= base_url('js/bootstrap.min.js'); ?>"></script>
+  <script src="<?= base_url('js/jquery.easing.1.3.js'); ?>"></script>
+  <script src="<?= base_url('js/jquery.waypoints.min.js'); ?>"></script>
+  <script src="<?= base_url('js/jquery.stellar.min.js'); ?>"></script>
+  <script src="<?= base_url('js/owl.carousel.min.js'); ?>"></script>
+  <script src="<?= base_url('js/jquery.magnific-popup.min.js'); ?>"></script>
+  <script src="<?= base_url('js/aos.js'); ?>"></script>
+  <script src="<?= base_url('js/jquery.animateNumber.min.js'); ?>"></script>
+  <script src="<?= base_url('js/scrollax.min.js'); ?>"></script>
   
-  <script src="<?= base_url('public/js/main.js'); ?>"></script>
+  <script src="<?= base_url('js/main.js'); ?>"></script>
     
   </body>
 </html>
