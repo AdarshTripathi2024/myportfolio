@@ -23,7 +23,12 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/portfolio';
+    public $baseURL;
+     public function __construct()
+    {
+        $this->baseURL = getenv('BASE_URL') ?: 'http://localhost/yourproject/';
+    }
+
 
     /**
      * --------------------------------------------------------------------------
