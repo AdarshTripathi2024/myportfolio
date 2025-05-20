@@ -26,7 +26,7 @@ class App extends BaseConfig
     public $baseURL;
      public function __construct()
     {
-        $this->baseURL = getenv('BASE_URL') ?: 'http://localhost/yourproject/';
+        $this->baseURL = getenv('BASE_URL') ?: 'http://localhost/portfolio/';
     }
 
 
