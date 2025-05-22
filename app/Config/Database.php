@@ -4,7 +4,9 @@ use CodeIgniter\Database\Config;
 
 class Database extends Config
 {
-    public $default;
+    public $defaultGroup = 'default';
+
+    public $default = [];
 
     public function __construct()
     {
@@ -23,27 +25,6 @@ class Database extends Config
                 'database' => ltrim($parts['path'], '/'),
                 'DBDriver' => 'MySQLi',
                 'port'     => $parts['port'] ?? 3306,
-                'charset'  => 'utf8',
-                'DBPrefix' => '',
-                'DBDebug'  => (ENVIRONMENT !== 'production'),
-                'cacheOn'  => false,
-                'cacheDir' => '',
-                'encrypt'  => false,
-                'compress' => false,
-                'strictOn' => false,
-                'failover' => [],
-                
-            ];
-        } else {
-            // fallback if env not set
-            $this->default = [
-                'DSN'      => '',
-                'hostname' => 'localhost',
-                'username' => 'root',
-                'password' => '',
-                'database' => 'test',
-                'DBDriver' => 'MySQLi',
-                'port'     => 3306,
                 'charset'  => 'utf8',
                 'DBPrefix' => '',
                 'DBDebug'  => (ENVIRONMENT !== 'production'),
