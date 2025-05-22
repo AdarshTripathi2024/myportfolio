@@ -33,8 +33,12 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('dbtest', function () {
-    $db = \Config\Database::connect();
-    echo "Connected to DB: " . $db->database;
+    try {
+        $db = \Config\Database::connect();
+        echo "✅ Connected to DB: " . $db->database;
+    } catch (\Exception $e) {
+        echo "❌ DB Connection failed: " . $e->getMessage();
+    }
 });
 /*
  * --------------------------------------------------------------------
